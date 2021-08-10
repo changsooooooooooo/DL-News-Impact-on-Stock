@@ -1,0 +1,32 @@
+Collecting mxnet
+  Using cached mxnet-1.7.0.post2-py2.py3-none-win_amd64.whl (33.1 MB)
+Requirement already satisfied: requests<2.19.0,>=2.18.4 in c:\users\administrator\anaconda3\lib\site-packages (from mxnet) (2.18.4)
+Collecting graphviz<0.9.0,>=0.8.1
+  Using cached graphviz-0.8.4-py2.py3-none-any.whl (16 kB)
+Collecting numpy<1.17.0,>=1.8.2
+  Using cached numpy-1.16.6.zip (5.1 MB)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\administrator\anaconda3\lib\site-packages (from requests<2.19.0,>=2.18.4->mxnet) (2020.12.5)
+Requirement already satisfied: chardet<3.1.0,>=3.0.2 in c:\users\administrator\anaconda3\lib\site-packages (from requests<2.19.0,>=2.18.4->mxnet) (3.0.4)
+Requirement already satisfied: urllib3<1.23,>=1.21.1 in c:\users\administrator\anaconda3\lib\site-packages (from requests<2.19.0,>=2.18.4->mxnet) (1.22)
+Requirement already satisfied: idna<2.7,>=2.5 in c:\users\administrator\anaconda3\lib\site-packages (from requests<2.19.0,>=2.18.4->mxnet) (2.6)
+Building wheels for collected packages: numpy
+  Building wheel for numpy (setup.py): started
+  Building wheel for numpy (setup.py): finished with status 'error'
+  Running setup.py clean for numpy
+Failed to build numpy
+Installing collected packages: numpy, graphviz, mxnet
+  Attempting uninstall: numpy
+    Found existing installation: numpy 1.20.1
+    Uninstalling numpy-1.20.1:
+      Successfully uninstalled numpy-1.20.1
+    Running setup.py install for numpy: started
+    Running setup.py install for numpy: finished with status 'error'
+  Rolling back uninstall of numpy
+  Moving to c:\users\administrator\anaconda3\lib\site-packages\numpy-1.20.1.dist-info\
+   from C:\Users\Administrator\Anaconda3\Lib\site-packages\~umpy-1.20.1.dist-info
+  Moving to c:\users\administrator\anaconda3\lib\site-packages\numpy\
+   from C:\Users\Administrator\Anaconda3\Lib\site-packages\~umpy
+  Moving to c:\users\administrator\anaconda3\scripts\f2py-script.py
+   from C:\Users\Administrator\AppData\Local\Temp\pip-uninstall-5q8ozr88\f2py-script.py
+  Moving to c:\users\administrator\anaconda3\scripts\f2py.exe
+   from C:\Users\Administrator\AppData\Local\Temp\pip-uninstall-5q8ozr88\f2py.exe
